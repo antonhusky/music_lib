@@ -8,8 +8,9 @@ CREATE TABLE artist_table (
     `name` VARCHAR(250) NOT NULL
 );
 CREATE TABLE album_table (
-    `id` int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
-    `name` VARCHAR(250) NOT NULL
+    `id` INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(250) NOT NULL,
+    'year' INT(11) NOT NULL
 );
 CREATE TABLE tracks_table (
     `id` INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
